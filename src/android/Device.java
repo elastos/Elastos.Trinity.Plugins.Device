@@ -18,6 +18,7 @@
 */
 package org.apache.cordova.device;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import java.util.TimeZone;
 
 import org.apache.cordova.CordovaWebView;
@@ -30,7 +31,7 @@ import org.json.JSONObject;
 
 import android.provider.Settings;
 
-public class Device extends CordovaPlugin {
+public class Device extends TrinityPlugin {
     public static final String TAG = "Device";
 
     public static String platform;                            // Device OS
