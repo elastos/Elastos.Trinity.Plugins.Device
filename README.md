@@ -23,9 +23,9 @@ description: Get device information.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-device?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-device)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-device.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-device)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-device?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-device)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-device.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-device)|
 
-# cordova-plugin-device
+# elastos-trinity-plugins-device
 
 This plugin defines a global `device` object, which describes the device's hardware and software.
 Although the object is in the global scope, it is not available until after the `deviceready` event.
@@ -39,7 +39,7 @@ function onDeviceReady() {
 
 ## Installation
 
-    cordova plugin add cordova-plugin-device
+    cordova plugin add elastos-trinity-plugins-device
 
 ## Properties
 
