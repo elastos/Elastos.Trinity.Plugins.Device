@@ -39,7 +39,9 @@ function onDeviceReady() {
 
 ## Installation
 
-    cordova plugin add elastos-trinity-plugins-device
+    cordova plugin add https://github.com/elastos/Elastos.Trinity.Plugins.Device
+
+    The plugins field of dapp manifest.json adds Device values, such as "plugins": ["XXXX", "Device", "XXXX"]
 
 ## Properties
 
