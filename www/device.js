@@ -64,7 +64,10 @@ function Device () {
             channel.onCordovaInfoReady.fire();
         }, function (e) {
             me.available = false;
-            utils.alert('[ERROR] Error initializing Cordova: ' + e);
+            channel.onCordovaInfoReady.fire();
+            if (e != "The plugin:'Device' isn't add plugin access list!!") {
+                console.log('Error initializing device: ' + e);
+            }
         });
     });
 }
