@@ -18,7 +18,7 @@
 */
 package org.apache.cordova.device;
 
-import org.elastos.trinity.dapprt.TrinityPlugin;
+import org.elastos.trinity.runtime.TrinityPlugin;
 import java.util.TimeZone;
 
 import org.apache.cordova.CordovaWebView;
